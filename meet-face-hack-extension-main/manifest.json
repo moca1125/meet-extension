@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Meet Face Hack Extension",
+  "version": "0.0.1",
+  "description": "Meet hack",
+    "host_permissions": [
+    "https://meet.google.com/"
+  ],
+  "content_scripts": [
+    {
+      "js": ["lmMarkImg.js","tf-core.js","tf-converter.js","tf-backend-webgl.js","face-landmarks-detection.js","loader.js","main.js"],
+      "matches": ["https://meet.google.com/*"],
+      "run_at": "document_start"
+    }
+  ]
+}
