@@ -8,9 +8,10 @@
   ],
   "content_scripts": [
     {
-      "js": ["lmMarkImg.js","tf-core.js","tf-converter.js","tf-backend-webgl.js","face-landmarks-detection.js","loader.js","main.js"],
+      "js": ["tf-core.js","tf-converter.js","tf-backend-webgl.js","face-landmarks-detection.js","lmMarkImg.js","loader.js","main.js"],
       "matches": ["https://meet.google.com/*"],
-      "run_at": "document_start"
+      "run_at": "document_start",
+      "world": "MAIN"
     }
   ]
 }
