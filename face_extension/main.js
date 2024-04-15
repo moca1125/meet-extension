@@ -97,7 +97,6 @@ async function loadModel() {
   model = await faceLandmarksDetection.load(
     faceLandmarksDetection.SupportedPackages.mediapipeFacemesh
   )
-  //console.log("model: loaded")
 }
 
 function main() {
