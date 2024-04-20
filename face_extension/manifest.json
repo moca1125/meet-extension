@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Ctunch extension",
+  "name": "Crunch face_extension",
   "version": "0.0.1",
   "description": "Meet hack",
     "host_permissions": [
@@ -8,7 +8,7 @@
   ],
   "content_scripts": [
     {
-      "js": ["tf-core.js","tf-converter.js","tf-backend-webgl.js","face-landmarks-detection.js","lmMarkImg.js","main.js"],
+      "js": ["tf-core.js","tf-converter.js","tf-backend-webgl.js","face-landmarks-detection.js","output.js","main.js"],
       "matches": ["https://meet.google.com/*"],
       "run_at": "document_start",
       "world": "MAIN"
