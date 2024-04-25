@@ -8,7 +8,7 @@
   ],
   "content_scripts": [
     {
-      "js": ["tf-core.js","tf-converter.js","tf-backend-webgl.js","face-landmarks-detection.js","output.js","main.js"],
+      "js": ["tf-core.js","tf-converter.js","tf-backend-webgl.js","face-landmarks-detection.js","img_face.js","main.js"],
       "matches": ["https://meet.google.com/*"],
       "run_at": "document_start",
       "world": "MAIN"
