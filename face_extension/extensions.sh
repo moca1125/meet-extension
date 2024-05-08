@@ -24,7 +24,7 @@ declare -A scripts3=(
 )
 declare -A scripts4=(
     [file]='face-landmarks-detection.js'
-    [url]='https://unpkg.com/@@tensorflow/tfjs-backend-cpu.js'
+    [url]='https://unpkg.com/@tensorflow-models/face-landmarks-detection@0.0.1/dist/face-landmarks-detection.js'
 )
 
 
